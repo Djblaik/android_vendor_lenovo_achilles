@@ -433,3 +433,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/btnvtool:system/bin/btnvtool \
     $(LOCAL_PATH)/proprietary/bin/mm-audio-ftm:system/bin/mm-audio-ftm \
     $(LOCAL_PATH)/proprietary/bin/serialno:system/bin/serialno
+# end

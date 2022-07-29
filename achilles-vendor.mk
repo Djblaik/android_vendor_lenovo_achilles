@@ -58,8 +58,17 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/achilles/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/lenovo/achilles/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/lenovo/achilles/proprietary/etc/sap.conf:system/etc/sap.conf \
+    vendor/lenovo/achilles/proprietary/lib/hw/audio.primary.msm8909.so:system/lib/hw/audio.primary.msm8909.so \
     vendor/lenovo/achilles/proprietary/lib/hw/camera.msm8909.so:system/lib/hw/camera.msm8909.so \
+    vendor/lenovo/achilles/proprietary/lib/hw/copybit.msm8909.so:system/lib/hw/copybit.msm8909.so \
+    vendor/lenovo/achilles/proprietary/lib/hw/gatekeeper.msm8909.so:system/lib/hw/gatekeeper.msm8909.so \
+    vendor/lenovo/achilles/proprietary/lib/hw/gralloc.msm8909.so:system/lib/hw/gralloc.msm8909.so \
+    vendor/lenovo/achilles/proprietary/lib/hw/hwcomposer.msm8909.so:system/lib/hw/hwcomposer.msm8909.so \
+    vendor/lenovo/achilles/proprietary/lib/hw/keystore.msm8909.so:system/lib/hw/keystore.msm8909.so \
+    vendor/lenovo/achilles/proprietary/lib/hw/lights.msm8909.so:system/lib/hw/lights.msm8909.so \
+    vendor/lenovo/achilles/proprietary/lib/hw/memtrack.msm8909.so:system/lib/hw/memtrack.msm8909.so \
     vendor/lenovo/achilles/proprietary/lib/hw/sensors.msm8909.so:system/lib/hw/sensors.msm8909.so \
+    vendor/lenovo/achilles/proprietary/lib/hw/sound_trigger.primary.msm8909.so:system/lib/hw/sound_trigger.primary.msm8909.so \
     vendor/lenovo/achilles/proprietary/lib/libOmxSwVencMpeg4.so:system/lib/libOmxSwVencMpeg4.so \
     vendor/lenovo/achilles/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lenovo/achilles/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
@@ -69,9 +78,15 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/achilles/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lenovo/achilles/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lenovo/achilles/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
+    vendor/lenovo/achilles/proprietary/lib/libwifi-hal-qcom.so:system/lib/libwifi-hal-qcom.so \
+    vendor/lenovo/achilles/proprietary/lib/libwifi-service.so:system/lib/libwifi-service.so \
     vendor/lenovo/achilles/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/lenovo/achilles/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/lenovo/achilles/proprietary/vendor/etc/RIDL/Goldenlogmask.dmc:system/vendor/etc/RIDL/Goldenlogmask.dmc \
+    vendor/lenovo/achilles/proprietary/vendor/etc/RIDL/RIDL.db:system/vendor/etc/RIDL/RIDL.db \
+    vendor/lenovo/achilles/proprietary/vendor/etc/RIDL/qdss.cfg:system/vendor/etc/RIDL/qdss.cfg \
     vendor/lenovo/achilles/proprietary/vendor/etc/calmodule.cfg:system/vendor/etc/calmodule.cfg \
+    vendor/lenovo/achilles/proprietary/vendor/etc/dolby/dax-default.xml:system/vendor/etc/dolby/dax-default.xml \
     vendor/lenovo/achilles/proprietary/vendor/lib/drm/libdrmprplugin.so:system/vendor/lib/drm/libdrmprplugin.so \
     vendor/lenovo/achilles/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/lenovo/achilles/proprietary/vendor/lib/drm/libomadrmengine.so:system/vendor/lib/drm/libomadrmengine.so \
